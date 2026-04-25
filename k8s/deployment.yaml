@@ -25,7 +25,7 @@ spec:
         - containerPort: 4004
         envFrom:
         - configMapRef:
-            name: tournament-service-config
+            name: tournament-service-devconfig
         - secretRef:
             name: tournament-service-secret
         resources:
